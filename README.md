@@ -1,6 +1,6 @@
 # 🎮 LeaguePlay
 
-LeaguePlay es una plataforma multiplataforma orientada a jugadores de **League of Legends** que buscan compañeros para partidas casuales o competitivas. Ofrece una integración con la API oficial de Riot para mostrar estadísticas y organizar eventos internos como ligas y torneos de forma automatizada.
+LeaguePlay es una aplicación multiplataforma orientada a jugadores de **League of Legends** que buscan compañeros para partidas casuales o competitivas. Ofrece una integración con la API oficial de Riot para mostrar estadísticas y organizar eventos internos como ligas y torneos de forma automatizada.Por ultimo, contiene una funcionalidad para conocer gente que tenga este juego en común mas allá de jugar.
 
 ---
 
