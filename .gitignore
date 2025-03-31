@@ -1,10 +1,44 @@
+# Archivos del sistema
 HELP.md
+
+# Carpetas de salida
 target/
+build/
+
+# Maven Wrapper
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# Archivos generados por compilación
+*.class
+*.log
+
+# Archivos temporales
+*.zip
+*.tar.gz
+*.rar
+*.war
+*.jar
+*.nar
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# IDEs
+
+## VS Code
+.vscode/
+
+## IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+## Spring Tool Suite
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +47,15 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
+## NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# BlueJ
+*.ctxt
+
+# J2ME
+.mtj.tmp/
