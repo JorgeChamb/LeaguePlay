@@ -28,6 +28,9 @@ public class User {
     private Boolean enabled;
     @Column(nullable = false)
     private LocalDateTime createAt;
+    public User(){
+        this.createAt=LocalDateTime.now();
+    }
     public long getId() {
         return id;
     }
