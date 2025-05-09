@@ -1,0 +1,26 @@
+Hoja de comandos Git – Proyecto LeaguePlay
+
+# Iniciar repositorio
+git init
+
+# Añadir todo
+git add .
+
+# Hacer primer commit
+git commit -m "Primer commit"
+
+# Configurar usuario (solo primera vez)
+git config --global user.name "TuNombre"
+git config --global user.email "tu@email.com"
+
+# Vincular con repositorio remoto
+git remote add origin https://github.com/usuario/LeaguePlay.git
+
+# Subir por primera vez (si no hay nada en remoto)
+git push -u origin main
+
+# Si hay conflictos: primero pull
+git pull origin main --allow-unrelated-histories
+
+# Luego push
+git push -u origin main

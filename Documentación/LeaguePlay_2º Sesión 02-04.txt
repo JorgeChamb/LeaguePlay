@@ -1,0 +1,26 @@
+Resumen de la sesión 2 – 1 de abril de 2025
+
+✅ Avances clave:
+- Creación y configuración de la clase User como entidad JPA.
+- Explicación y comprensión profunda de interfaces, anotaciones JPA y estructura de proyecto.
+- Generación de application.properties y conexión con base de datos MySQL.
+- Integración del conector JDBC (MySQL) y resolución de errores.
+- Spring Boot conectado correctamente y ejecutando sin errores 🚀
+
+📁 Archivos clave tocados:
+- User.java → Entidad con anotaciones JPA
+- application.properties → Conexión a MySQL
+- pom.xml → Añadida dependencia mysql-connector-j
+
+🧠 Conocimientos adquiridos:
+- Qué es una interfaz (JpaRepository) y para qué sirve
+- Cómo JPA transforma clases en tablas automáticamente
+- Qué significa ddl-auto=update
+- Detección y resolución de errores comunes de conexión
+
+📚 Guía de estudio sugerida (Spring Boot):
+1. Documentación oficial Spring Boot: https://spring.io/projects/spring-boot
+2. Spring Data JPA Reference: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+3. Curso gratuito recomendado (YouTube): Amigoscode – Spring Boot Tutorial https://www.youtube.com/watch?v=9SGDpanrc8U
+4. Cheatsheet de Anotaciones: @Entity, @Table, @Id, @GeneratedValue, @Column, @Repository, @Service, @Controller, @RestController
+5. Hibernate DDL-auto options: none, validate, update, create, create-drop
